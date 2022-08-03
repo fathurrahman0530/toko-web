@@ -19,6 +19,11 @@
           <td>{{ $p->price }}</td>
           <td>
             <a href="/product/{{ $p->id }}/edit">Edit</a>
+            <form action="/product/{{ $p->id }}" method="POST">
+              @method('DELETE')
+              @csrf
+              <input type="submit" value="Delete">
+            </form>
           </td>
         </tr>
     @endforeach
