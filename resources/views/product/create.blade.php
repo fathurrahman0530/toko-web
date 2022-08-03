@@ -19,6 +19,11 @@
     <td><input type="number" name="price" id="price"></td>
   </tr>
   <tr>
+    <td>Image</td>
+    <td>&nbsp;</td>
+    <td><input type="text" name="img_url" id="img_url"></td>
+  </tr>
+  <tr>
     <td></td>
     <td>&nbsp;</td>
     <td><input type="submit" value="Save"></td>

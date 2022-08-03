@@ -20,6 +20,11 @@
     <td><input type="number" name="price" id="price" value="{{ $product->price }}"></td>
   </tr>
   <tr>
+    <td>Image Product</td>
+    <td>&nbsp;</td>
+    <td><input type="number" name="img_url" id="img_url" value="{{ $product->img_url }}"></td>
+  </tr>
+  <tr>
     <td></td>
     <td>&nbsp;</td>
     <td><input type="submit" value="Update"></td>
